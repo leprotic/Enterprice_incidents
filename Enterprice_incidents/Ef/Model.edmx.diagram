@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c80f30e694a14a259647c4fb964ce992" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Enterprice_incidents__Model.Gender" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Enterprice_incidents__Model.Incident" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Enterprice_incidents__Model.Incident_Type" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Enterprice_incidents__Model.Incidents_History" Width="1.5" PointX="5.375" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Enterprice_incidents__Model.Post" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Enterprice_incidents__Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Enterprice_incidents__Model.Worker" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Enterprice_incidents__Model.Worker_incident" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="Enterprice_incidents__Model.FK_Worker_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Enterprice_incidents__Model.FK_Incident_Incident_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="Enterprice_incidents__Model.FK_Incidents_History_Incident" ManuallyRouted="false" />
+        <AssociationConnector Association="Enterprice_incidents__Model.FK_Worker_incident_Incident" ManuallyRouted="false" />
+        <AssociationConnector Association="Enterprice_incidents__Model.FK_Incidents_History_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="Enterprice_incidents__Model.FK_Worker_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="Enterprice_incidents__Model.FK_Worker_incident_Worker" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
