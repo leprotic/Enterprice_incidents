@@ -226,7 +226,7 @@
 
 
 
-        <!-- Правый бок окна -->
+        <!-- Правый бок окна  -->
 
         <StackPanel x:Name="RightSidePanel"
                     Grid.Column="2"
